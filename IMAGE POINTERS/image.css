@@ -1,0 +1,26 @@
+body{
+    background-image: url(images/background.jfif)
+}
+.head{
+    background-color: aquamarine;
+    text-align: center;
+}
+li{
+    color: ivory;
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+ }
+ li::before{
+    content: '';
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url("images/flag.png");
+ }
+
